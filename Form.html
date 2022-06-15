@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Form</title>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>Best pizza</header>
+    </body>
+    <script src="main.js"></script>
+    <main>
+        <section id="contact-form">
+            <h2>Place order</h2>
+            <form method="GET" action="place-order.php">
+                <h4>Delivery</h4>
+                <input name="deliveryMethod" type="radio" value="delivery" />delivery<br />
+                <input name="deliveryMethod" type="radio" value="pickup" />pickup<br />
+
+
+                <h4>Address</h4>
+                <input name ="address1" placeholder="Address line 1" class="'lg-inout"/><br />
+                <input name ="address2" placeholder="Address line 2" class="'lg-inout"/><br />
+                <input name="city" placeholder="city" class="sm-inout"/>   
+                <input name="State" placeholder="State" class="sm-inout"/>   
+                <input name="zipcode" placehorlder="zipcode" class="sm-input"/>
+                <br />
+                <br />
+                <h4>Size</h4>\
+                <select name="size">
+                    <option value="12">12" - 500</option>
+                    <option value="16">16" - 1000</option>
+                    <option value="18">18" - 1500</option>
+
+
+
+                </select>
+                <h4>Ingridients</h4>
+                <input name="Indigridents" type="checkbox" value="pepperoni"/>pepperoni<br />
+                <input name="Indigridents" type="checkbox" value="salami"/>salami<br />
+                <input name="Indigridents" type="checkbox" value="bacon"/>bacon<br /><br />
+                <button type="submit">Place order</button>
+
+
+            </form>
+        </section>
+    </main>
+</html>
