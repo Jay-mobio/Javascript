@@ -1,8 +1,8 @@
-var btn = document.getElementById("go-buttion)");
+
 
 function buttonclicked(){
-    console.log("Button clicked");
-    btn.removeEventListener("click",buttonclicked);
-    document.getElementById("text").innerHTML = "Dont do it";
+    alert("btn")
 }
-btn.addEventListener("click",buttonclicked());
+var btn = document.getElementById("go-buttion)");
+
+btn.addEventListener("click",buttonclicked)
